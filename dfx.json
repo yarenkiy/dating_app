@@ -8,11 +8,14 @@
       "dependencies": [
         "dating_app_backend"
       ],
+      "frontend": {
+        "entrypoint": "src/dating_app_frontend/src/index.html"
+      },
       "source": [
-        "src/dating_app_frontend/dist"
+        "src/dating_app_frontend/assets",
+        "dist/dating_app_frontend/"
       ],
-      "type": "assets",
-      "workspace": "dating_app_frontend"
+      "type": "assets"
     }
   },
   "defaults": {
@@ -21,6 +24,5 @@
       "packtool": ""
     }
   },
-  "output_env_file": ".env",
   "version": 1
 }
