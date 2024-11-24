@@ -40,8 +40,9 @@ const App = () => {
 
     const actor = Actor.createActor(idlFactory, {
       agent,
-      canisterId: process.env.CANISTER_ID,
+      canisterId: import.meta.env.VITE_CANISTER_ID_DATING_APP_BACKEND, // Vite kullanıyorsanız 'import.meta.env'
     });
+    
 
     setActor(actor);
     loadProfile();

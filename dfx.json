@@ -11,11 +11,13 @@
       "frontend": {
         "entrypoint": "src/dating_app_frontend/src/index.html"
       },
-      "source": [
-        "src/dating_app_frontend/assets",
-        "dist/dating_app_frontend/"
-      ],
+     "source": [
+  "src/dating_app_frontend/dist/assets",
+  "src/dating_app_frontend/dist"
+]
+,
       "type": "assets"
+      
     }
   },
   "defaults": {
